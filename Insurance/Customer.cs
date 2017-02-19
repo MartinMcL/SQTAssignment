@@ -8,9 +8,9 @@ namespace Insurance
 {
     public class Customer
     {
-        public float CalcPremium(int age, string gender)
+        public double CalcPremium(int age, string gender)
         {
-            float premium;
+            double premium;
 
             if (gender == "female")
             {
