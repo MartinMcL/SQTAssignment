@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using Insurance;
-using fit;
 
 namespace InsuranceTest
 {
@@ -56,16 +55,6 @@ namespace InsuranceTest
         {
             var sut = new Customer();
             Assert.That(sut.CalcPremium(25, "neither"), Is.EqualTo(0));
-        }
-    }
-    public class IntegTest : fit.ColumnFixture
-    {
-        public int age;
-        public string gender;
-        public float CalcPremium()
-        {
-            var sut = new Customer();
-            return sut.CalcPremium(age, gender);
         }
     }
 }

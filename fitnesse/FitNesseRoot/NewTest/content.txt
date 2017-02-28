@@ -1,6 +1,16 @@
 !define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,dotnet2\fit.dll %p}
 !define TEST_RUNNER {dotnet2\Runner.exe}
-!path C:\Users\Marty\Documents\Development\SQTAssignment\InsuranceTest\bin\Debug\InsuranceTest.dll
-!| InsuranceTest.IntegTest |
+!path C:\Users\Marty\Documents\Development\SQTAssignment\FitnesseTests\bin\Debug\FitnesseTests.dll
+!| FitnesseTests.FitnesseTests |
 | age | gender | CalcPremium? |
-| 10 | male | 0 |
+| 17 | male | 0 |
+| 18 | male | 6 |
+| 18 | female | 5 |
+| 30 | female | 5 |
+| 35 | male | 6 |
+| 31 | female | 2.5 |
+| 49 | male | 5 |
+| 50 | male | 2.5 |
+| 50 | female | 1.25 |
+| xyz | male | 0 |
+| 10 | xyz | 0 |

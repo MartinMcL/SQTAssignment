@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance", "Insurance\Insu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceTest", "InsuranceTest\InsuranceTest.csproj", "{C9ED8A54-1997-468C-83A7-B40391269A8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnesseTests", "FitnesseTests\FitnesseTests.csproj", "{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C9ED8A54-1997-468C-83A7-B40391269A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9ED8A54-1997-468C-83A7-B40391269A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9ED8A54-1997-468C-83A7-B40391269A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
