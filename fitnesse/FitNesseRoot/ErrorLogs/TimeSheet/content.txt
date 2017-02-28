@@ -1,0 +1,32 @@
+
+!3 !-fit:dotnet2\Runner.exe-!
+|'''Date: '''| 11:57:02 AM (GMT) on Thursday, January 19, 2017 |
+|'''Test Page: '''|.TimeSheet|
+|'''Command: '''| !-dotnet2\Runner.exe -r fitnesse.fitserver.FitServer,dotnet2\fit.dll "d:\TimeSheetLibrary\TimeSheetLibrary\bin\Debug\TimeSheetLibrary.dll " D1016-08 8080 3-! |
+|'''Exit code: '''| 1 |
+|'''Time elapsed: '''| 1.03 seconds |
+
+----
+'''Standard Output:'''
+{{{ System.IO.FileNotFoundException: Could not load file or assembly 'file:///d:\TimeSheetLibrary\TimeSheetLibrary\bin\Debug\TimeSheetLibrary.dll' or one of its dependencies. The system cannot find the file specified.
+File name: 'file:///d:\TimeSheetLibrary\TimeSheetLibrary\bin\Debug\TimeSheetLibrary.dll'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at fitSharp.Machine.Engine.CurrentDomain.LoadAssembly(String assemblyPath)
+   at fitSharp.Machine.Engine.ApplicationUnderTest.Assemblies.AddAssembly(String assemblyName)
+   at fitSharp.Machine.Engine.ApplicationUnderTest.AddAssemblies(IEnumerable`1 assemblyNames)
+   at fitnesse.fitserver.FitServer.ParseCommandLineArguments(IEnumerable`1 args)
+   at fitnesse.fitserver.FitServer.Run(IList`1 CommandLineArguments)
+   at fitnesse.fitserver.FitServer.Run(IList`1 commandLineArguments, Memory memory, ProgressReporter reporter)
+   at fitSharp.Machine.Application.Shell.Run()
+   at fitSharp.Machine.Application.Shell.Execute()
+   at fitSharp.Machine.Application.Shell.Run(IList`1 commandLineArguments)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+ }}}

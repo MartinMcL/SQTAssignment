@@ -1,0 +1,11 @@
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,dotnet2\fit.dll %p}
+!define TEST_RUNNER {dotnet2\Runner.exe}
+# this is the path to the fixture code
+!path d:\TimeSheetLibrary\TimeSheetLibrary\bin\Debug\TimeSheetLibrary.dll 
+
+!| TimeSheetLibrary.TimeSheetTest |
+| checkintime | checkouttime | rate | hoursworked? | pay? |
+| 9:00AM | 5:00PM | 7 | 8 | 56 |
+| 10:30AM | 12:30PM | 4 | 2 | 8 |
+| 9:45AM | 12:30PM | 10 | 2.45 | 24.5 |
+| 9:05AM | 3:30PM | 7 | 6.25 | 43.75 |

@@ -1,0 +1,10 @@
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,dotnet2\fit.dll %p}
+!define TEST_RUNNER {dotnet2\Runner.exe}
+!path D:\Lottery2Test\Lottery2Test\bin\Debug\Lottery2Test.dll
+
+!| Lottery2Test.PayoutTable |
+|payoutPool|winningCombination|PoolPercentage?|PrizePool?|
+|2000000|6|68|1360000|
+|2000000|5|10|270000|
+|2000000|4|10|200000|
+|2000000|3|12|240000|

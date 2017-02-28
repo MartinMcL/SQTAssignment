@@ -1,0 +1,8 @@
+
+!3 !-fit:dotnet2\Runner.exe-!
+|'''Date: '''| 3:44:33 PM (GMT) on Tuesday, February 28, 2017 |
+|'''Test Page: '''|.NewTest|
+|'''Command: '''| !-dotnet2\Runner.exe -r fitnesse.fitserver.FitServer,dotnet2\fit.dll C:\Users\Marty\Documents\Development\SQTAssignment\InsuranceTest\bin\Debug\InsuranceTest.dll AspireWin 8080 12-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 1.035 seconds |
+

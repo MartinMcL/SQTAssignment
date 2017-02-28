@@ -1,0 +1,6 @@
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,dotnet2\fit.dll %p}
+!define TEST_RUNNER {dotnet2\Runner.exe}
+!path D:\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll
+!| HelloWorld.OurFirstTest |
+| string1 | string2 | Concatenate? |
+| Hello | World | Hello World |

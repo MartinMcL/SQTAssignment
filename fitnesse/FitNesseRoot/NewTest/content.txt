@@ -1,0 +1,6 @@
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,dotnet2\fit.dll %p}
+!define TEST_RUNNER {dotnet2\Runner.exe}
+!path C:\Users\Marty\Documents\Development\SQTAssignment\InsuranceTest\bin\Debug\InsuranceTest.dll
+!| InsuranceTest.IntegTest |
+| age | gender | CalcPremium? |
+| 10 | male | 0 |

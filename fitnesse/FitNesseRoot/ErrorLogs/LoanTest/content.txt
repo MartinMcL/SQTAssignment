@@ -1,0 +1,25 @@
+
+!3 !-fit:dotnet2\Runner.exe-!
+|'''Date: '''| 11:47:58 AM (GMT) on Friday, February 5, 2016 |
+|'''Test Page: '''|.LoanTest|
+|'''Command: '''| !-dotnet2\Runner.exe -r fitnesse.fitserver.FitServer,dotnet2\fit.dll D:\TDD\TDD\bin\Debug\TDD.dll D1016-07 8080 1-! |
+|'''Exit code: '''| 1 |
+|'''Time elapsed: '''| 1.047 seconds |
+
+----
+'''Standard Output:'''
+{{{ System.IO.FileLoadException: Could not load file or assembly 'file:///S:\Classes\Vivion Kinsella\BackUp\SQA_Testing_2015\fitnesse\dotnet2\fit.dll' or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515)
+File name: 'file:///S:\Classes\Vivion Kinsella\BackUp\SQA_Testing_2015\fitnesse\dotnet2\fit.dll' ---> System.NotSupportedException: An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at fitSharp.Machine.Engine.CurrentDomain.LoadAssembly(String assemblyPath)
+   at fitSharp.Machine.Engine.ApplicationUnderTest.Assemblies.AddAssembly(String assemblyName)
+   at fitSharp.Machine.Application.Shell.Execute()
+   at fitSharp.Machine.Application.Shell.RunInCurrentDomain()
+   at fitSharp.Machine.Application.Shell.Run(IList`1 commandLineArguments)
+
+
+ }}}

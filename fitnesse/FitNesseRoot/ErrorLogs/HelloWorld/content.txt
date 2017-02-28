@@ -1,0 +1,8 @@
+
+!3 !-fit:dotnet2\Runner.exe-!
+|'''Date: '''| 11:56:20 AM (GMT) on Thursday, January 19, 2017 |
+|'''Test Page: '''|.HelloWorld|
+|'''Command: '''| !-dotnet2\Runner.exe -r fitnesse.fitserver.FitServer,dotnet2\fit.dll D:\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll D1016-08 8080 2-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 1.05 seconds |
+
