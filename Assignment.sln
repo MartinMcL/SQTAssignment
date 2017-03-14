@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceTest", "InsuranceT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnesseTests", "FitnesseTests\FitnesseTests.csproj", "{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceWebForm", "InsuranceWebForm\InsuranceWebForm.csproj", "{80A4DED2-E8DE-47BB-BC8D-823F136EFD4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{193B4D7B-39BD-4BFF-BB70-450850B15CCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A4DED2-E8DE-47BB-BC8D-823F136EFD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A4DED2-E8DE-47BB-BC8D-823F136EFD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A4DED2-E8DE-47BB-BC8D-823F136EFD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A4DED2-E8DE-47BB-BC8D-823F136EFD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193B4D7B-39BD-4BFF-BB70-450850B15CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193B4D7B-39BD-4BFF-BB70-450850B15CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193B4D7B-39BD-4BFF-BB70-450850B15CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193B4D7B-39BD-4BFF-BB70-450850B15CCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
