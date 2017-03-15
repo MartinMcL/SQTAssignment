@@ -8,10 +8,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceTest", "InsuranceTest\InsuranceTest.csproj", "{C9ED8A54-1997-468C-83A7-B40391269A8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnesseTests", "FitnesseTests\FitnesseTests.csproj", "{CAEA1831-5D74-4A1F-BF80-13CE403D68EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1FB27D9-7808-4F7B-9557-5136C7A6EE34} = {B1FB27D9-7808-4F7B-9557-5136C7A6EE34}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceWebForm", "InsuranceWebForm\InsuranceWebForm.csproj", "{80A4DED2-E8DE-47BB-BC8D-823F136EFD4F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{193B4D7B-39BD-4BFF-BB70-450850B15CCA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80A4DED2-E8DE-47BB-BC8D-823F136EFD4F} = {80A4DED2-E8DE-47BB-BC8D-823F136EFD4F}
+		{B1FB27D9-7808-4F7B-9557-5136C7A6EE34} = {B1FB27D9-7808-4F7B-9557-5136C7A6EE34}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
